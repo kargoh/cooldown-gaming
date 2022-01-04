@@ -3,7 +3,7 @@
   <div class="home container">
     <div class="row">
       <div class="col-12"> 
-        <img alt="Vue logo" src="../../assets/logo.png">
+        <img class="cd-logo" alt="Vue logo" src="../../assets/images/logo-cooldown-gaming.svg" >
         <h1>Home Page</h1>
       </div>
     </div>
@@ -22,6 +22,10 @@ export default {
 </script>
 
 <style>
+.home .cd-logo {
+  height: 256px;
+  width: auto;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
